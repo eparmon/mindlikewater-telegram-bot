@@ -1,0 +1,5 @@
+app.bot-token=
+
+spring.r2dbc.url=r2dbc:mariadb://localhost:3306/mindlikewaterbot
+spring.r2dbc.username=mindlikewaterbot
+spring.r2dbc.password=
