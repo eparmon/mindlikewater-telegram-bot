@@ -1,5 +1,13 @@
-app.bot-token=
+app.bot.token=
+app.bot.username=
+app.api.url=http://localhost:5491
 
+server.port=5490
+
+spring.liquibase.url=jdbc:mariadb://localhost:3306/mindlikewaterbot
+spring.liquibase.user=mindlikewaterbot
+spring.liquibase.password=
+spring.liquibase.change-log=db/changelog/db.changelog-master.xml
 spring.r2dbc.url=r2dbc:mariadb://localhost:3306/mindlikewaterbot
 spring.r2dbc.username=mindlikewaterbot
 spring.r2dbc.password=
